@@ -1,0 +1,554 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f5fa;
+}
+
+
+
+.icon{
+  background-color: none;
+}
+
+.navbar ul li{
+  color: black;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px;
+  padding-left: 16px;
+  top: 50px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+  .logo img{
+    float: right;
+    margin: auto;
+    padding: 0px 13px 0px 0px;
+    margin-top: 20px;
+  }
+
+  .navbar{
+    max-width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-bottom-style: solid;
+    line-height: 50px;
+    padding-bottom: 10px;
+  }
+
+  .navbar li{
+    color: #00000099;
+    font-size: 15px;
+    font-family: "poppings";
+  }
+
+  .navbar li a{
+    text-decoration: none;
+    color: black;
+  
+  }
+
+  .bg{
+    background-image: url(/img/hero-bg.png);
+    background-position: top;
+    background-size: 500px;
+    background-position: 800px;
+    background-repeat:no-repeat;
+    background-color: #faedeb;
+    height: 765px;
+    
+    
+   }
+
+   .bg img{
+    float: right;
+    margin:0px;
+
+   }
+
+   .bg-text{
+    padding: 200px;
+   }
+
+   .bg-text h2{
+     font-size: 55px;
+     font-family: sans-serif;
+   }
+
+   .bg-text button{
+     background-color: black;
+     color: azure;
+     border-width: 15px;
+     font-size: 13px;
+     margin-top: 50px;
+    }
+
+    .button button :hover{
+         color: #f0f5fa;
+         
+    }
+   
+   .bg-text h5{
+    font-weight: lighter;
+    color: grey;
+    font-size: 15px;
+   }
+
+
+   .section-2{
+      padding: 100px;
+      text-align: center;
+   }
+
+   .section-2 h3{
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: grey;
+   }
+
+   .section-2 h1{
+    font-size: 36px;
+    font-weight: 600px;
+   }
+
+   
+
+   .text h3{
+    margin-top: 100px;
+    margin-left: 14px;
+    color: #00000099;
+    font-weight: lighter;
+    font-size: 15px;
+ }
+
+ .text h1{
+   margin-top: 22px;
+   margin-left: 18px;
+   font-size: 60px;
+   font-weight: lighter;
+   word-spacing: 15px;
+ }
+
+ 
+  .image-1 img{
+    width: 300px;
+    height: 366px;
+    
+    
+  }
+
+  .box-1{
+    background-color: black;
+    width: 20.4px;
+    height: 20.4px;
+    margin-left: 0px;
+    padding: 1px;
+    margin-top: 15px;
+    border: 1px;
+    border-style: solid;
+    text-decoration: none;
+  }
+
+  .box-2 {
+    background-color: #faedeb;
+   width: 20.4px;
+   height: 20.4px;
+   margin-left: 10px;
+   padding: 1px;
+   margin-top: 15px;
+   border: 1px;
+   border-style: solid;
+   border-radius: none;
+   text-decoration: none;
+  }
+
+  .box-3 {
+    background-color: white;
+   width: 20.4px;
+   height: 20.4px;
+   margin-left: 10px;
+   padding: 1px;
+   margin-top: 15px;
+   border: 1px;
+   border-style: solid;
+   border-radius: none;
+  }
+
+  .button button{
+    padding: 5px 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+
+  .img-2 img{
+    width: 300px;
+    height: 366px;
+  }
+
+  .image-1{
+    float: left;
+    width: 25%;
+    margin-top: 50px;
+  }
+
+  .img-2{
+    float: left;
+    width: 25%;
+    margin-top: 50px;
+  }
+
+  .img-3{
+    float: left;
+    width: 25%;
+    margin-top: 50px;
+  }
+
+  .img-4{
+    float: left;
+    width: 25%;
+    margin-top: 50px;
+  }
+
+  .img-3 img{
+    width: 300px;
+    height: 366px;
+  }
+
+  .img-4 img{
+    width: 300px;
+    height: 366px;
+  }
+
+  .sec-3  img{
+       margin-top: 100px;
+  }
+
+  .texttt{
+    float: left;
+    margin-left: 100px;
+  }
+
+  .img1 h5{
+    padding-left: 25%;
+    margin-top: 40%;
+    font-size: 20px;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+
+  .img1 h2{
+    margin-left: 10%;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  
+
+  .img1 button{
+    margin-left: 23%;
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+  }
+
+
+  .text2 h2{
+    font-size: 36px;
+    font-family: "poppings"sans-serif;
+    margin-top: 10px;
+  }
+
+  .text2 button{
+    width: none;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  
+ 
+
+ .sec4{
+  background-image: url(/img/bg-01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 95%;
+  background-position-x: center;
+  padding:25% 15%;
+  text-align: center;
+  margin-top: 10%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/img/bg-01.jpg);
+  }
+
+  .section-5{
+    padding-bottom: 30px;
+  }
+ 
+  .sec4 h4{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: white;
+    
+  }
+
+  .sec4 h3{
+    font-size: 36px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .sec4 h5{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .sec4 button{
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .img-sec{
+    padding-top: 100px;
+    padding-left: 10%;
+    background-image:linear-gradient(to top,rgb(251, 205, 214),white);
+
+  }
+
+  .img-sec h6{
+    font-size: 13px;
+    margin-top: 200px;
+    color: grey;
+    font-weight: lighter;
+  }
+
+  .text2{
+    float: right;
+    margin: 50px;
+   margin-left: 20px
+  }
+
+  .img-sec h2{
+    font-size: 36px;
+    font-weight:bold;
+    font-style: italic;
+    margin-top: 20px;
+    margin-right: 5px;
+  }
+
+  .img-sec h5{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: grey;
+    font-weight: lighter;
+  }
+
+  .text2 button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+  }
+
+  .section-5{
+    padding: 130px;
+    text-align: center;
+    margin-top: -10%;
+  }
+
+  .text4{
+  
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+  }
+
+  .text4 h3{
+    font-size: 36px;
+    padding: 25px;
+    margin-top: 10%;
+  }
+
+  .text4 a:hover{
+    font-size: 16px;
+    
+    color: black;
+  }
+
+  .text4 h5{
+    margin-top: 30px;
+    padding: 5px 5px;
+  }
+
+  .product{
+    margin-top: 35%;
+    display: flex;
+    
+  }
+
+  .product img{
+    padding-left: 73%;
+    margin: 20px;
+    
+  }
+
+  .product1{
+    z-index: 1;
+    
+  }
+
+  .one{
+    position: absolute;
+    top: 758%;
+    left: 28%;
+    padding: 6px 80px;
+    background-color: white;
+   text-decoration: none;
+   color: black;
+  }
+
+  .two{
+    position: absolute;
+    top: 758%;
+    right: 28%;
+    padding: 6px 80px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer{
+    margin-top: 5%;
+    text-align: center;
+    padding: 100px 200px;
+    background-color: #faedeb;
+    box-sizing: border-box;
+   }
+  
+   .footer h4{
+    background-color: black;
+    color: white;
+   }
+
+   .navbar-2 ul li{
+    color: black;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 16px;
+    margin-top: -50px;
+    text-transform: capitalize;
+  }
+  
+  .navbar-2{
+    margin-top: -50px;
+    margin-left: 10px;
+    line-height: 45px;
+    padding-bottom: 10px;
+  }
+  
+  .navbar-2 li{
+    color: #00000099;
+    font-size: 15px;
+    font-family: "poppings";
+  }
+  
+  .navbar-2 li a{
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  .navbar-2 h3{
+    margin: 20px;
+  }
+  
+  .footer h4{
+    width: 500px;
+    margin-left: 275px;
+    text-align: center;
+   
+  }
+  
+  .icons{
+    padding: 20px;
+    border: 20px;
+  
+  }
+  
+  .fa-facebook:before {
+    padding: 20px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .fa-twitter:before{
+    padding: 20px;
+  }
+  
+  .fa-instagram:before{
+    padding: 20px;
+  }
+  
+  .fa-facebook:hover{
+    background-color: transparent;
+    padding: 3px 5px 3px 5px ;
+  }
+  
+  .fa-facebook{
+    background-color: white;
+   padding: 10px;
+    font-size: 25px;
+  }
+  
+  .fa-twitter{
+    background-color: white;
+   padding: 10px;
+    font-size: 25px;
+  }
+  
+  .fa-twitter:hover{
+    background-color: transparent;
+    padding: 3px 5px 3px 5px ;
+  }
+  
+  
+  .fa-instagram:hover{
+    background-color: transparent;
+    padding: 3px 5px 3px 5px ;
+  }
+  
+  .fa-instagram{
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  .last{
+    background-color: black;
+    color: white;
+    padding: 40px;
+  }
+  

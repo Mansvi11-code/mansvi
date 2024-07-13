@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+.icon{
+  background-color: none;
+}
+
+.navbar ul li{
+  color: black;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px;
+  padding-left: 16px;
+  margin-top: -50px;
+  text-transform: capitalize;
+}
+  .logo img{
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+  }
+
+  .navbar{
+    margin-top: -50px;
+    margin-left: 10px;
+    border-bottom-style: solid;
+    line-height: 45px;
+    padding-bottom: 10px;
+  }
+
+  .navbar li{
+    color: #00000099;
+    font-size: 15px;
+    font-family: "poppings";
+  }
+
+  .navbar li a{
+    text-decoration: none;
+    color: black;
+  
+  }
+
+  .sec2{
+    padding: 15px 0px 0px;
+    text-align: center;
+    margin-top:3%;
+    
+ }
+
+ .sec2 h1{
+    font-size: 46px;
+    font-weight: 60px;
+    font-family: sans-serif;
+    font-style:normal;
+ }
+
+ .line{
+     height: 2px;
+    width: 50px;
+    background-color: black;
+    margin: auto;
+ }
+
+ .sec2 p{
+    color: grey;
+    font-weight: lighter;
+ }
+
+ .sec3{
+  background-image: url(/img/bg-02.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 90%;
+  height: 612.8px;
+  width: 1500px;
+  background-position-x: center;
+  padding:10% 15%;
+  text-align: center;
+  margin-top: 5%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/img/bg-02.jpg);
+  color: white;
+  }
+
+  .text2{
+    float: inline-end;
+    text-align: left;
+    font-size: 25px;
+    top: 20px;
+    font-weight: bold;
+  }
+
+  
+
+  .text1{
+    float: left;
+    text-align: left;
+  }
+
+  .text1 h6{
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+  }
+
+  .text1 h3{
+    font-size: 36px;
+    font-family: sans-serif;
+  }  
+ 
+  .sec4{
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .line2{
+    height: 2px;
+    width: 53px;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  .sec4 h2{
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+
+  .line3{
+    height: 2px;
+    width: 53px;
+    background-color:black;
+    margin: auto;
+  }
+
+  .sec4 p{
+    color: grey;
+  }
+
+  .img img{
+    width: 570px;
+    height: 445px;
+  }
+
+  .sec5{
+    display: flex;
+    padding: 25px 0px 0px;
+    margin-left: 12.5%;
+    margin-top: 1%;
+    
+  }
+
+  .text3 h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+
+  .text3{
+    padding: 80px;
+    background-color: #faedeb;
+  }
+
+  .text3 p{
+    line-height: 23px;
+    color: grey;
+    }
+
+.text3 h4{
+    font-size: 17px;
+}
+
+.footer{
+    margin-top: 5%;
+    text-align: center;
+    padding: 100px 80px;
+    background-color: #faedeb;
+    box-sizing: border-box;
+   }
+  
+   .footer h4{
+    color: rgb(116, 113, 113);
+    font-weight: lighter;
+    justify-content: center;
+   }
+
+   .navbar-2 ul li{
+    color: black;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 16px;
+    margin-top: -50px;
+    text-transform: capitalize;
+  }
+  
+  .navbar-2{
+    margin-top: -50px;
+    margin-left: 10px;
+    line-height: 45px;
+    padding-bottom: 10px;
+  }
+  
+  .navbar-2 li{
+    color: #00000099;
+    font-size: 15px;
+    font-family: "poppings";
+  }
+  
+  .navbar-2 li a{
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  .navbar-2 h3{
+    margin: 20px;
+  }
+  
+ 
+  
+  .icons{
+    padding: 20px;
+    border: 20px;
+  
+  }
+  
+  .fa-facebook:before {
+    padding: 20px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .fa-twitter:before{
+    padding: 20px;
+  }
+  
+  .fa-instagram:before{
+    padding: 20px;
+  }
+  
+  .fa-facebook:hover{
+    background-color: transparent;
+    padding: 3px 5px 3px 5px ;
+  }
+  
+  .fa-facebook{
+    background-color: white;
+   padding: 10px;
+    font-size: 25px;
+  }
+  
+  .fa-twitter{
+    background-color: white;
+   padding: 10px;
+    font-size: 25px;
+  }
+  
+  .fa-twitter:hover{
+    background-color: transparent;
+    padding: 3px 5px 3px 5px ;
+  }
+  
+  
+  .fa-instagram:hover{
+    background-color: transparent;
+    padding: 3px 5px 3px 5px ;
+  }
+  
+  .fa-instagram{
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  .last{
+    background-color: black;
+    color: white;
+    padding: 40px;
+  }
